@@ -1,10 +1,10 @@
 export default function Header() {
-    return (<header>
+    return (<header className="container flex">
         <figure>
             <img src="../public/img/dc-logo.png"></img>
         </figure>
         <nav>
-            <ul>
+            <ul className="flex">
                 <li>CHARACTERS</li>
                 <li className="active">COMICS</li>
                 <li>MOVIES</li>

@@ -9,15 +9,23 @@ body {
   min-height: 100vh;
 }
 
-header {
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.flex {
   display: flex;
+}
+
+header {
   background-color: white;
   justify-content: space-between;
   height: 103px;
+
 }
 
 ul {
-  display: flex;
   padding: 0;
   justify-content: center;
   margin: 30px;
@@ -34,6 +42,38 @@ ul li.active {
   border-bottom: 5px solid blue;
   padding-bottom: 50px
 }
+
+
+.content {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  height: 40%;
+  padding: 3% 10%;
+}
+
+.shop {
+  background-color: #0282f9;
+  height: 60%;
+  padding: 3% 10%;
+  justify-content: space-evenly;
+}
+
+.shop div {
+  align-items: center;
+}
+
+.shop div span {
+  color: white;
+  padding-left: 5%;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.shop img {
+  height: 50px;
+}
+
 
 footer {
   background-image: url("../public/img/footer-bg.jpg");
