@@ -3,23 +3,23 @@ export default function Main() {
         <section className="content container">-- Content goes here--</section>
         <section className="shop container flex">
             <div className="flex">
-                <img src="../public/img/buy-comics-digital-comics.png"></img>
+                <img src="../img/buy-comics-digital-comics.png"></img>
                 <span>DIGITAL COMICS</span>
             </div>
             <div className="flex">
-                <img src="../public/img/buy-comics-merchandise.png"></img>
+                <img src="../img/buy-comics-merchandise.png"></img>
                 <span>DC MERCHANDISE</span>
             </div>
             <div className="flex">
-                <img src="../public/img/buy-comics-subscriptions.png"></img>
+                <img src="../img/buy-comics-subscriptions.png"></img>
                 <span>SUBSCRIPTION</span>
             </div>
             <div className="flex">
-                <img src="../public/img/buy-comics-shop-locator.png"></img>
+                <img src="../img/buy-comics-shop-locator.png"></img>
                 <span>COMIC SHOP LOCATOR</span>
             </div>
             <div className="flex">
-                <img src="../public/img/buy-dc-power-visa.svg"></img>
+                <img src="../img/buy-dc-power-visa.svg"></img>
                 <span>DC POWER VISA</span>
             </div>
         </section>

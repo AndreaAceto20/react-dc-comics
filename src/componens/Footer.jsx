@@ -1,5 +1,14 @@
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faPinterest } from '@fortawesome/free-brands-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
+
 export default function Footer() {
-    return (<footer className="container">
+    return (<footer>
 
         <section className="container links flex">
             <div className="divider">
@@ -48,9 +57,22 @@ export default function Footer() {
                 </ul>
             </div>
         </section>
-        {/* <section className="bottom-footer">
-            <button></button>
-        </section> */}
+        <section className="bottom-footer flex container">
+            <button>SIGN-UP NOW</button>
+            <div className='flex icons'>
+                <h4>FOLLOW US</h4>
+                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faYoutube} />
+                <FontAwesomeIcon icon={faPinterest} />
+                <FontAwesomeIcon icon={faLocationDot} />
+            </div>
+        </section>
 
     </footer>)
 };
+
+
+
+
+
