@@ -23,9 +23,5 @@ export default function Main() {
                 <span>DC POWER VISA</span>
             </div>
         </section>
-
-
-
-
     </main>)
 };

@@ -25,16 +25,19 @@ header {
 
 }
 
-ul {
+header ul {
   padding: 0;
   justify-content: center;
   margin: 30px;
 }
 
+header ul li {
+  font-weight: bold;
+}
+
 ul li {
   margin-right: 20px;
   list-style-type: none;
-  font-weight: bold;
 }
 
 ul li.active {
@@ -48,13 +51,11 @@ ul li.active {
   background-color: black;
   color: white;
   font-size: 50px;
-  height: 40%;
   padding: 3% 10%;
 }
 
 .shop {
   background-color: #0282f9;
-  height: 60%;
   padding: 3% 10%;
   justify-content: space-evenly;
 }
@@ -74,7 +75,32 @@ ul li.active {
   height: 50px;
 }
 
-
 footer {
-  background-image: url("../public/img/footer-bg.jpg");
+  background: url("../public/img/dc-logo-bg.png") no-repeat right bottom, url("../public/img/footer-bg.jpg");
+  background-size: 500px;
+}
+
+footer li {
+  color: grey;
+}
+
+.links {
+  color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 40%;
+  align-items: flex-start;
+}
+
+.divider {
+  padding-top: 10%;
+}
+
+.links h4 {
+  padding-bottom: 5%;
+}
+
+.bottom-footer {
+  background-color: #303030;
 }
