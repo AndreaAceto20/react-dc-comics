@@ -40,21 +40,24 @@ ul li {
   list-style-type: none;
 }
 
+a {
+  color: grey;
+  text-decoration: none;
+}
+
 a.active {
   color: blue;
   border-bottom: 5px solid blue;
-  padding-bottom: 50px
+  padding-bottom: 51px
 }
 
-ul li:hover {
+a:hover {
   color: blue;
   border-bottom: 5px solid blue;
   padding-bottom: 50px
 }
 
-a {
-  text-decoration: none;
-}
+
 
 .content {
   background-color: black;
