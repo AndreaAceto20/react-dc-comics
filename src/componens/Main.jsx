@@ -1,6 +1,10 @@
+import ComicsList from "./Cards/ComicsList"
+
+
+
 export default function Main() {
     return (<main >
-        <section className="content container">-- Content goes here--</section>
+        <section className="content container"><ComicsList /></section>
         <section className="shop container flex">
             <div className="flex">
                 <img src="../img/buy-comics-digital-comics.png"></img>

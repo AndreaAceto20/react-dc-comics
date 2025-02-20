@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .flex {
@@ -64,6 +64,24 @@ a:hover {
   color: white;
   font-size: 50px;
   padding: 3% 10%;
+}
+
+.content .card {
+  width: 15%;
+  margin-left: 1%;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+.content p {
+  font-size: 15px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .shop {
